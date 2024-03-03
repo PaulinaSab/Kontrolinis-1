@@ -11,11 +11,11 @@ namespace Kontrolinis1
 {
     class Miestas
     {
-        string miestas { get; private set; }
-        string salis { get; private set; }
-        int gyventojai { get; private set; }
-        double plotas { get; private set; }
-        DateTime data { get; private set; }
+        public string miestas { get; private set; }
+        public string salis { get; private set; }
+        public int gyventojai { get; private set; }
+        public double plotas { get; private set; }
+        public DateTime data { get; private set; }
 
         //Konstruktorius be parametrų
         public Miestas()
